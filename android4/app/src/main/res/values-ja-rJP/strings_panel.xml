@@ -92,7 +92,7 @@
     <string name="slot_blacklist_all">すべてのアプリをバイパス解除</string>
     <string name="slot_dns_name">DNS が有効です</string>
     <string name="slot_dns_name_private">カスタム DNS が有効です</string>
-    <string name="slot_dns_name_disabled">DNS が無効になっています</string>
+    <string name="slot_dns_name_disabled">DNS が無効です</string>
     <string name="slot_action_none">この操作はまだ利用できません。</string>
     <string name="slot_action_unwhitelist">キャンセル</string>
     <string name="slot_action_author">詳細</string>
@@ -119,7 +119,7 @@
     <string name="slot_forwarded_title">ドメイン転送済み</string>
     <string name="slot_whitelist_title">ホワイトリストに登録したアプリ</string>
     <string name="slot_list_no_desc">このエントリには説明がありません。</string>
-    <string name="slot_status_info">アプリが有効な場合、通知バーにキーアイコンが表示されデバイスは保護されていることを表します。下のボタンを押すか、下のメニューをスワイプしてアプリを OFF にできます。</string>
+    <string name="slot_status_info">アプリが動作している場合、通知バーにキーアイコンが表示されデバイスは保護されていることを表します。下のボタンを押すか、下のメニューをスワイプしてアプリを OFF にできます。</string>
     <string name="slot_action_deactivate">OFF</string>
     <string name="slot_action_activate">ON</string>
     <string name="slot_update_action_refresh">もう一度確認</string>
@@ -186,7 +186,7 @@
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_obsolete_desc">ご使用の Blokada のバージョンは最新ではないため、正しく機能しない可能性があります。アップデートを導入するには、最新バージョンをダウンロードしてください。</string>
     <!-- A button to update the app. -->
-    <string name="slot_cleanup_desc">お使いのデバイスに Blokada の多くのバージョンがインストールされているようです。他のバージョンを削除して、1つだけ保持しますか？</string>
+    <string name="slot_cleanup_desc">お使いのデバイスに Blokada の複数のバージョンがインストールされているようです。他のバージョンを削除して、1 つだけ保持しますか？</string>
     <string name="account_inactive">続行するにはアカウントをアクティベートまたは復元してください。</string>
     <string name="slot_lease_cant_connect">Blokada Plus に接続できませんでした。別のゲートウェイを選択してください。</string>
     <string name="slot_account_cant_create">Blokada Plus アカウントを作成できませんでした。後でもう一度お試しいただくか、お問い合わせください。</string>
@@ -210,6 +210,6 @@
     <string name="slot_reset_counter_description">ブロックされたリクエストの数を示すカウンターを0に戻します。</string>
     <string name="slot_reset_counter_action">リセット</string>
     <string name="label_workarounds">デバイス固有の回避策</string>
-    <string name="slot_dns_answer_label">DNS 代理不在応答（DNS ブロック）</string>
-    <string name="slot_dns_answer_description">この設定を有効にするとブロックされたリクエストへの Blokada の回答を「ホストが見つかりません」から「無効な IP」へと回答を変更します。デフォルトの回答をした場合、一部のアプリが他の DNS サーバーに再度リクエストを送信することがあり、不必要に RAM が使用されます。この設定を有効にすると、RAM は開放されますが、一部のアプリの動作が遅くなる可能性があることにご注意ください。</string>
+    <string name="slot_dns_answer_label">DNS 代理応答</string>
+    <string name="slot_dns_answer_description">この設定を有効にするとブロックされたリクエストへ Blokada が「ホストが見つかりません」と回答する代わりに無効な IP アドレスを回答します。デフォルトの回答をした場合、一部のアプリが他の DNS サーバーに繰り返しリクエストを送信して、不必要に RAM が使用される場合があります。この設定を有効にするとRAM は開放されますが、無効な IP アドレスでも接続しようとするアプリがあり、動作が遅くなる可能性があることにご注意ください。</string>
 </resources>
